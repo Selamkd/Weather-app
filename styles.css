@@ -1,0 +1,69 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Rajdhani&family=Roboto+Condensed:ital,wght@1,300&family=Wix+Madefor+Display:wght@600&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    display:flex;
+    max-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    background-color:#110C3D;
+    font-family:'Wix Madefor Display', sans-serif;
+    font-size: 25px;
+    color: aliceblue;
+}
+.location,
+.temprature{
+    height:540px;
+    width:50%;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;    
+}
+.temprature{
+    flex-direction: column;
+}
+.degree-block{
+    display:flex;
+    align-items:center;
+    cursor:pointer;
+}
+.degree-block span{
+    margin:10px;
+    font-size: 28px;
+}
+.degree-block h2{
+    font-size: 40px;
+    color: #FFD700;
+}
+img{
+ 
+    max-width: 100%;
+    position: absolute;
+    left:800px;
+    top:80px;
+    margin:50px;
+  
+}
+.head{
+    font-family: 'Rajdhani', sans-serif;
+    position: relative;
+    right:500px;
+    top:25px;
+    color:#FFD700;
+  
+}
+#img2{
+     
+    max-width: 100%;
+    position: absolute;
+    left:1200px;
+    top: 323px;
+
+}
