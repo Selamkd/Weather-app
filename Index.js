@@ -31,9 +31,9 @@ window.addEventListener('load', ()=>{
 
             temperatureSection.addEventListener("click",()=>{
                 if (temperatureSpan.textContent === "F"){
-                    temperatureSpan.textContent === "C";
+                    temperatureSpan.textContent = "C";
                 }else{
-                    temperatureSpan.textContent === "F";
+                    temperatureSpan.textContent = "F";
                 }
             })
 
