@@ -8,25 +8,28 @@
 
     <link rel="stylesheet" href="styles.css">
 </head>
-<h1 class="head">Weather app</h1>
 <body>
- 
-  <section>
-  
+  <div class="video-container">
+  <video autoplay muted loop>
+    <source src="weather.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+</div>
+<h1 id="head">Weather app</h1>
+  <main class="weather-box">
  <div class="location">
     <h1 class="location-timezone">Time Zone</h1>
     <canvas class="icon" width="128" height="128"></canvas>
   </div>
-
-  <div class="temperature"> 
+  <div class="temprature"> 
     <div class="degree-block">
-    <h2 class="temperature-degree">34</h2>
-    <span>F</span> <br>
-    <div class="temperature-description"> It's cold out there </div>
+      <div class="temprature-section">
+    <h2 class="temprature-degree">34<span>F</span></h2><br>
+    <div class="temprature-description"> It's cold out there </div>
     </div>
   </div>
-  </section>
-  <img src="My project (1).png" width="780" height="780">
+  </div>
+</main> 
 
   <script src="skycons.js"> </script>
     <script src="index.js"> </script>

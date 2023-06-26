@@ -2,11 +2,11 @@
 window.addEventListener('load', ()=>{
     let long;
     let lat;
-    let temperatureDegree = document.querySelector('.temperature-degree');
-    let temperatureDescription = document.querySelector('.temperature-description');
+    let temperatureDegree = document.querySelector('.temprature-degree');
+    let temperatureDescription = document.querySelector('.temprature-description');
     let locationTimezone = document.querySelector('.location-timezone');
-    let temperatureSection = document.querySelector(".temperature");
-    let temperatureSpan= document.querySelector(".temperature span");
+    let temperatureSection = document.querySelector(".temprature");
+    let temperatureSpan= document.querySelector(".temprature span");
     
 
     if(navigator.geolocation){
