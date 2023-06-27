@@ -42,7 +42,7 @@ video {
     width:100%;
     margin-top:20px;
     flex:1 1;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(5px);
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     -webkit-transform: translate3d(0, 0, 0);
@@ -94,7 +94,7 @@ video {
     margin-left:20px;
     margin-top:10px;
     padding:20px;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(5px);
 }
 @media (max-width: 600px) {
     body {
@@ -105,8 +105,9 @@ video {
     
             font-size: 20px;
             max-width: 600px;
-            -webkit-backdrop-filter: blur(6px);
-            padding:22px;
+            filter: blur(5px);
+       transform: translate3d(0, 0, 0);
+            padding:25px;
            
       
 
@@ -114,9 +115,15 @@ video {
     }
     .head{
         font-size: 28px;;
+        margin-bottom: 10px;
+        padding-left: 20px;
+        filter: blur(5px);
+        transform: translate3d(0, 0, 0);
     }
      main{
         margin-left:25px;
+        filter: blur(5px);
+        transform: translate3d(0, 0, 0);
      }
      video {
         /** Simulationg background-size: cover */
