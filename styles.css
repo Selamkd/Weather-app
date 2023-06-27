@@ -42,7 +42,11 @@ video {
     width:100%;
     margin-top:20px;
     flex:1 1;
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(15px);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
 
    
   
@@ -90,7 +94,7 @@ video {
     margin-left:20px;
     margin-top:10px;
     padding:20px;
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(15px);
 }
 @media (max-width: 600px) {
     body {
@@ -101,7 +105,7 @@ video {
     
             font-size: 20px;
             max-width: 600px;
-            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
             padding:22px;
            
       
